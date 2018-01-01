@@ -21,93 +21,92 @@ themes      : ['Default']
 
   <div class="ui main container">
 
-    <h2 class="ui dividing header">Introduction</h2>
+    <h2 class="ui dividing header">Giriş</h2>
 
     <div class="introduction">
 
-      <h3 class="ui header">When To Use</h3>
+      <h3 class="ui header">Ne Zaman Kullanılır</h3>
 
-      <p>A container is an element designed to contain page elements to a reasonable maximum width based on the size of a user's screen. This is useful to couple with other UI elements like <a href="/collections/grid.html">grid</a> or <a href="/collections/menu.html">menu</a> to restrict their width to a reasonable size for display.</p>
+      <p>Container, sayfa elemanlarını kullanıcının ekranına en uygun genişlikte yerleştirmek için kullanılan bir kapsayıcıdır. Container kapsayıcısı, <a href="/collections/grid.html">grid</a> gibi <a href="/collections/menu.html">menu</a> gibi UI unsurlarının genişliklerini ekran genişliğine uygun şekilde sınırlandırmak için oldukça kullanışlıdır.</p>
 
 
-      <h3 class="ui header">Container Sizes</h3>
+      <h3 class="ui header">Container Ebatları</h3>
 
-      <p>Containers are designed to responsively adjust their maximum width based on the size of the screen on which they are appearing.</p>
+      <p>Container, en geniş halini görüntülendiği ekranın genişliğine uygun şekilde, mobil uyumlu olarak ayarlaması için tasarlanmıştır.</p>
 
       <table class="ui celled definition table">
         <thead>
           <th class="collapsing"></th>
-            <th>Mobile</th>
+            <th>Mobil</th>
             <th>Tablet</th>
-            <th class="single line">Small Monitor</th>
-            <th class="single line">Large Monitor</th>
+            <th class="single line">Küçük Monitor</th>
+            <th class="single line">Büyük Monitor</th>
         </thead>
         <tbody>
           <tr>
-            <td>Width</td>
+            <td>Genişlik</td>
             <td>100%</td>
             <td>
               723px
-              <i class="circle help link icon" data-html="Maximum device width with two <code>1em</code> gutters and a <code>17px</code> scrollbar width. <div class='ui divider'></div> <code>768 - (14 * (1 * 2)) - 17</code>">
+              <i class="circle help link icon" data-html="En büyük ekran genişliği <code>1em</code>'lik 2 gutter ve  <code>17px</code>'lik scrollbar genişliği. <div class='ui divider'></div> <code>768 - (14 * (1 * 2)) - 17</code>">
             </td>
             <td>
               933px
-              <i class="circle help link icon" data-html="Maximum device width with two <code>1.5em</code> gutters and a <code>17px</code> scrollbar width. <div class='ui divider'></div> <code>992 - (14 * (1.5 * 2)) - 17</code>">
+              <i class="circle help link icon" data-html="En büyük ekran genişliği <code>1.5em</code>'lik 2 gutter ve <code>17px</code>'lik scrollbar genişliği. <div class='ui divider'></div> <code>992 - (14 * (1.5 * 2)) - 17</code>">
             </td>
             <td>
               1127px
-              <i class="circle help link icon" data-html="Maximum device width with two <code>2em</code> gutters and a <code>17px</code> scrollbar width. <div class='ui divider'></div> <code>1200 - (14 * (2 * 2)) - 17</code>">
+              <i class="circle help link icon" data-html="En büyük ekran genişliği <code>2em</code>'lik 2 gutter ve <code>17px</code>'lik scrollbar genişliği. <div class='ui divider'></div> <code>1200 - (14 * (2 * 2)) - 17</code>">
             </td>
           </tr>
           <tr>
-            <td class="single line">Gutter Size</td>
+            <td class="single line">Gutter Büyüklüğü</td>
             <td>1em</td>
-            <td>Fluid</td>
-            <td>Fluid</td>
-            <td>Fluid</td>
+            <td>Akışkan</td>
+            <td>Akışkan</td>
+            <td>Akışkan</td>
           </tr>
           <tr>
-            <td>Variable</td>
+            <td>Değişken</td>
             <td><code>$largestMobileScreen</code></td>
             <td><code>$mobileBreakpoint</code></td>
             <td><code>$smallMonitorBreakpoint</code></td>
             <td><code>$largeMonitorBreakpoint</code></td>
           </tr>
           <tr>
-            <td>Device Width</td>
-            <td>below 768px</td>
+            <td>Cihaz Genişliği</td>
+            <td>768px'den küçük</td>
             <td>768px - 991px</td>
             <td>992px - 1200px</td>
-            <td>above 1200px</td>
+            <td>1200px'den büyük</td>
           </tr>
         </tbody>
       </table>
-      <h3 class="ui header">Responsive Visibility</h3>
-      <p>Since variations in Semantic UI are only assigned in the scope of components, there are no "free floating" responsive class names, however some components include responsive variations to help ease responsive design. <a href=href="/collections/grid.html#device-visibility">Grid</a> for example, includes responsive classes for hiding or showing <code>column</code>, <code>row</code> based on device type.</p>
+      <h3 class="ui header">Mobil Uyumlu Görünürlük</h3>
+      <p>Semantic UI`da çeşitler bileşenlerin sadece etki alanlarında (scope) atandığı için "serbest yüzen" (free floating) mobil uyumlu sınıf isimleri yoktur ama bazı bileşenler mobil uyumlu tasarımı kolaylaştırmak için mobil uyumlu çeşitleri içerirler. Mesela <a href="/collections/grid.html#device-visibility">Grid</a>, cihaz türüne bağlı olmak üzere <code>column</code>, <code>row</code> sınıflarını gizleyen ve gösteren mobil uyumlu sınıflara sahiptir.</p>
 
-      <a href="/collections/grid.html#device-visibility" class="ui secondary button">See grid responsive variations <i class="right chevron icon"></i></a>
+      <a href="/collections/grid.html#device-visibility" class="ui secondary button">Gridlerde mobil uyumlu çeşitlere bak <i class="right chevron icon"></i></a>
 
-      <h3 class="ui header">Determining Maximum Widths</h3>
+      <h3 class="ui header">En Büyük Genişliği Belirlemek</h3>
 
-      <p>Containers appear at the same width at each device size. This size is calculated programmatically by determining the maximum device width available within a device breakpoint, given a desired minimum gutter size.</p>
-
-      <p>For example to determine tablet container size the following formula is used:</p>
+      <p>Container`lar her cihaz ebadında benzer genişlikte görünürler. Bu genişlik, cihazların ekran genişliklerinin kırılımları içinde kalan mümkün olan en büyük cihaz genişliği belirlenerek, verilen en küçük gutter ebadına göre hesaplanır.</p>
+		
+		
+      <p>Mesela tablet container büyüklüğünü belirlemek için şu formül kullanılır :</p>
 
       <div class="code" data-type="less">
-      /* In site.variables */
+      /* site.variables dosyasında */
       @tabletBreakpoint : 768px;
-      @scrollbarWidth : 17px; /* This is a constant */
+      @scrollbarWidth : 17px; /* Sabit */
 
-      /* In container.variables */
-      @tabletMinimumGutter : (@emSize  * 1); /* require 1em gutter */
+      /* container.variables dosyasında*/
+      @tabletMinimumGutter : (@emSize  * 1); /* 1em gutter gerekli */
       @tabletWidth : @tabletBreakpoint - (@tabletMinimumGutter * 2) - @scrollbarWidth;
       </div>
 
-      <p>This is the same as <code>768px - (14px * 2) - 17px</code> or <code>723px</code></p>
+      <p>Bu sonuçta <code>768px - (14px * 2) - 17px</code> yani <code>723px</code> olur.</p>
 
-      <p>Adjusting site breakpoints in <code>site.variables</code> to use custom values will automatically adjust container widths.</p>
-
-
+      <p><code>site.variables</code> dosyasındaki ekran genişliği kırılım değerlerini özelleştirmek container genişliklerini otomatik ayarlayacaktır.</p>
     </div>
   </div>
 </div>
@@ -117,11 +116,11 @@ themes      : ['Default']
 
   <div class="ui main container">
 
-    <h2 class="ui dividing header">Types</h2>
+    <h2 class="ui dividing header">Türler</h2>
 
     <div class="no example">
       <h4 class="ui header">Container</h4>
-      <p>A standard container</p>
+      <p>Standart container</p>
     </div>
 
     <div class="ui ignored code">
@@ -157,9 +156,9 @@ themes      : ['Default']
 
     <div class="no example">
       <h4 class="ui header">Text Container</h4>
-      <p>A container can reduce its maximum width to more naturally accomodate a single column of text</p>
+      <p>Tek sütun bir metni okunabilirlik için mümkün olan en büyük doğal genişlikle sınırlandırır.</p>
       <div class="ui info message">
-        A text container is a simpler markup alternative to using a grid with a single column, and is designed to have a reasonable maximum width for displaying flowing text
+        Text container, tek sütunlu bir grid`i biçimlendirmek için kullanılacak basit bir alternatiftir ve akışkan yazıları en makul genişlikte görüntülemek için tasarlanmıştır.
       </div>
     </div>
 
@@ -212,11 +211,11 @@ themes      : ['Default']
   <div class="ui main container">
 
 
-    <h2 class="ui dividing header">Variations</h2>
+    <h2 class="ui dividing header">Çeşitleri</h2>
 
     <div class="no example">
-      <h4 class="ui header">Text Alignment</h4>
-      <p>A container can specify its text alignment</p>
+      <h4 class="ui header">Yazı Hizalama</h4>
+      <p>Container içindeki yazının hizasını belirleyebilir.</p>
 
     </div>
 
@@ -236,16 +235,16 @@ themes      : ['Default']
     </div>
 
     <div class="ui left aligned container">
-      Left Aligned
+      Sola Yaslanmış
     </div>
     <div class="ui center aligned container">
-      Center Aligned
+      Ortalanmış
     </div>
     <div class="ui right aligned container">
-      Right Aligned
+      Sağa Yaslanmış
     </div>
     <div class="ui justified container">
-      <b>Justified</b>
+      <b>İki Yana Yaslanmış</b>
       <div class="ui divider"></div>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
       elit. Aenean commodo ligula eget dolor. Aenean massa
@@ -286,13 +285,13 @@ themes      : ['Default']
     </div>
 
     <div class="no example">
-      <h4 class="ui header">Fluid</h4>
-      <p>A fluid container has no maximum width</p>
-      <div class="ui info message">Fluid containers are useful for setting text alignment, or other variations on unstyled content</div>
+      <h4 class="ui header">Akışkan</h4>
+      <p>Fluid container için genişlik sınırı yoktur.</p>
+      <div class="ui info message"></div>
 
       <div class="ui ignored code">
         <div class="ui fluid container">
-          Fluid
+          Fluid container elemanlar metin hizalamaları için yada biçimlendirilmemiş içeriklerin çeşitleri için kullanışlıdır.
         </div>
       </div>
     </div>
@@ -314,11 +313,11 @@ themes      : ['Default']
 
   <div class="ui main container">
 
-    <h2 class="ui dividing header">Examples</h2>
+    <h2 class="ui dividing header">Örnekler</h2>
 
     <div class="no example">
-      <h4 class="ui header">Containers Using Grids</h4>
-      <p>A container can be combined with a grid allowing you to use all of the layout and alignment available for <a href="/collections/grid.html#doubling">grids</a> including responsive patterns.</p>
+      <h4 class="ui header">Grid kullanan Container</h4>
+      <p>Container elemanı grid ile birleştirerek <a href="/collections/grid.html#doubling">gridler</a> için olan tüm anahat düzeni, hizalama ve mobil uyumlu şablonları kullanabilirsiniz.</p>
     </div>
 
     <div class="ui ignored code">
@@ -376,8 +375,8 @@ themes      : ['Default']
 
   <div class="ui main container">
     <div class="no example">
-      <h4 class="ui header">Centered Menu</h4>
-      <p>A container can be used inside of a menu to make sure menu items appear inline with page contents. Using responsive variations like <a href="/collections/menu.html#stackable">stackable</a> menu can help make contents adjust to different device sizes.</p>
+      <h4 class="ui header">Ortalanmış Menü</h4>
+      <p>Container eleman, menü unsurlarının sayfa içeriği ile hizalı göründüğünden emin olmak amacıyla menu elemanı içinde kullanılabilir.  <a href="/collections/menu.html#stackable">stackable</a> gibi mobil uyumlu çeşitleri kullanarak, menu elemanı içeriğin farklı cihaz genişlikllerine uydurulmasına yardım eder.</p>
     </div>
 
     <div class="ui ignored code">
@@ -439,7 +438,7 @@ themes      : ['Default']
 
     <div class="no example">
       <h4 class="ui header">Container Segment</h4>
-      <p>A container can be used with a <a href="/elements/segment.html">segment</a></p>
+      <p>Container <a href="/elements/segment.html">segment</a> ile birlikte kullanılabilir.</p>
     </div>
 
     <div class="ui ignored code">
